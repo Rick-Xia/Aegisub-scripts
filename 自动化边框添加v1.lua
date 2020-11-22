@@ -65,9 +65,9 @@ function setDialogValues(styles)
 	end
 
 	table.insert(dialog_config_base, {class="label",x=0,y=getY(),label=""})
-    table.insert(dialog_config_base, {class="label",x=0,y=getY(),width=1,height=1,label=AFFECTED_LINES_LABEL})
-    table.insert(dialog_config_base, {class="dropdown",name=AFFECTED_LINES_LABEL,x=1,y=getY()-1,width=1,height=1,items={},value=""})
-    table.insert(dialog_config_base, {class="label",x=0,y=getY()-1,label=""})
+        table.insert(dialog_config_base, {class="label",x=0,y=getY(),width=1,height=1,label=AFFECTED_LINES_LABEL})
+        table.insert(dialog_config_base, {class="dropdown",name=AFFECTED_LINES_LABEL,x=1,y=getY()-1,width=1,height=1,items={},value=""})
+        table.insert(dialog_config_base, {class="label",x=0,y=getY()-1,label=""})
 
 	lineSelectionOption = #dialog_config_base - 1
   	dialog_config_base[ lineSelectionOption ].items={}
